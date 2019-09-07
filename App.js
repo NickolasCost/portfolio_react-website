@@ -14,9 +14,7 @@ const App = () => {
       <Navbar />
       <div className='wrapper_content'>
         <Profile />
-        <Dialogs />
       </div>
-      <Footer />
     </div>
   );
 }
