@@ -1,0 +1,6 @@
+.content {
+    grid-area: header;
+}
+.content img {
+    height: 40px;
+}

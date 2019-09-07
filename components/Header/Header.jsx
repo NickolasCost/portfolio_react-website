@@ -1,10 +1,12 @@
 import React from 'react';
-import Styles from './Header.module.css'
+import styles from './Header.module.css'
 
 const Header = () => {
     return (
-        <div className={'Styles.content'}>
-            
+        <div className={styles.content}>
+            <img src='https://cdn4.iconfinder.com/data/icons/logos-3/256/laravel-512.png' />
         </div>
     );
 };
+
+export default Header;
