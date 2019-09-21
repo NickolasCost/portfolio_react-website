@@ -1,0 +1,17 @@
+.container {
+    background-color: gold;
+}
+.name {
+    color: #000;
+}
+.img {
+    border-radius: 50%;
+    width: 50px;
+}
+.post {
+    background-color: rgb(204, 204, 204);
+    border: 1px solid rgb(156, 196, 196);
+    border-radius: 5px;
+    width: 80%;
+    
+}

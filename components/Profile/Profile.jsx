@@ -10,8 +10,6 @@ const Profile = () => {
             <p className={styles.description}>Description</p>
         </div>
         <MyPosts />
-        <MyPosts />
-        <MyPosts />
         </div>
 
     )
