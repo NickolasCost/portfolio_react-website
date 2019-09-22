@@ -1,4 +1,22 @@
 .container {
     height: 500px;
-    background-color: orange;
+    background-color: #ddb363;
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+.dialogs {
+    padding: 10px;
+}
+.dialogs_item {
+    padding: 3px;
+}
+.dialogs a {
+    text-decoration: none;
+    color: #fff;
+}
+.messages {
+    padding: 10px;
+}
+.active a{
+    color: gold;
 }
