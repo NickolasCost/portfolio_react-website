@@ -1,0 +1,10 @@
+.container {
+    background-color: yellow;
+    display: flex;
+}
+.container img {
+    width: 50px;
+}
+.description {
+    width: 500px;
+}
