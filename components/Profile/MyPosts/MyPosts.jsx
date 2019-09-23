@@ -11,6 +11,9 @@ const MyPosts = (props) => {
         { id: 4, message: "Good", likesCount: 4, name: "Дима" }
     ]
 
+    let postsElements = postsData
+        .map( post => <Post name={post.name} message={post.message} likesCount={post.likesCount} /> )
+
     return (
         <div>
             <h3>My posts</h3>
@@ -20,9 +23,7 @@ const MyPosts = (props) => {
                 <button>Add post</button>
             </div>
             <div className={styles.posts}>
-                <Post name={postsData[0].name} message={postsData[0].message} likesCount={postsData[0].likesCount} />
-                <Post name={postsData[1].name} message={postsData[1].message} likesCount={postsData[1].likesCount} />
-                <Post name={postsData[2].name} message={postsData[2].message} likesCount={postsData[2].likesCount} />
+                {postsElements}
             </div>
         </div>
     )
